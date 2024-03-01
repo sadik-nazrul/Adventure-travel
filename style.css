@@ -1,0 +1,116 @@
+/* Font for the Website from Google */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Boiler Template */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter";
+    border: none;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* Default Color */
+:root{
+    --primary-color: #ff5400;
+    --secondary-color: #131319;
+    --text: #424247;
+}
+
+/* Reusable classes */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 3.2rem 1.2rem;
+    border: 1px solid red;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.inner-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.inner-subtitle {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.text{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text);
+}
+
+.btn {
+    padding: .8rem 1.8rem;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: .5rem;
+}
+
+.flex{
+    display: flex;
+}
+
+.content-center{
+    justify-content: center;
+}
+
+.content-between{
+    justify-content: space-between;
+}
+
+.grid{
+    display: grid;
+}
+
+.col2{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.col3{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Mobile style */
+@media screen and (max-width: 600px){
+    /* Reusable classes */
+.container{
+    width: 320px;
+    padding: 1.8rem 1.2rem;
+    border: 1px solid red;
+}
+
+.flex{
+    display: flex;
+}
+
+.col2{
+    grid-template-columns: 1fr
+}
+
+.col3{
+    grid-template-columns: 1fr;
+}
+}
