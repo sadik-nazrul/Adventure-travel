@@ -32,7 +32,6 @@ img{
     width: 1200px;
     margin: 0 auto;
     padding: 3.2rem 1.2rem;
-    /* border: 1px solid red; */
 }
 
 .intro {
@@ -356,7 +355,7 @@ body > main > div:nth-child(6) > div > div.travel-video > iframe {
 
 /* Back to top */
 i.ri-arrow-up-circle-fill {
-    font-size: 6rem;
+    font-size: 4rem;
     color: var(--primary-color);
     position: fixed;
     bottom: 0;
