@@ -477,4 +477,9 @@ h1.tegline{
 .offer>h2{
     font-size: 1.1rem;
 }
+
+/* Back to top */
+i.ri-arrow-up-circle-fill{
+    font-size: 2rem;
+}
 }
