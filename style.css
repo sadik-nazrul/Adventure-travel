@@ -140,12 +140,6 @@ img{
 }
 
 /* Header style */
-header{
-    position: sticky;
-    top: 0;
-    background-color: #fff;
-}
-
 header > .container{
     padding: 1.5rem 1.2rem;
 }
@@ -253,6 +247,47 @@ h1.tegline {
     border-radius: .5rem;
 }
 
+/* Newsletter Style */
+.newsletter-form {
+    border: 1px solid var(--primary-color);
+    padding: 1.5rem;
+    border-radius: .8rem;
+    gap: 1.5rem;
+}
+
+.name, .email {
+    width: 100%;
+    background-color: #1313181a;
+    font-size: 1rem;
+    margin-bottom: .8rem;
+}
+
+.subs{
+    width: 100%;
+}
+
+.offer-image{
+    position: relative;
+}
+
+.offer-image>img {
+    width: 100%;
+    height: 100%;
+}
+
+.offer {
+    width: 35%;
+    text-align: center;
+    rotate: -30deg;
+    position: absolute;
+    bottom: 5rem;
+    right: 1.4rem;
+}
+
+.offer>p{
+    color: #fff;
+}
+
 
 /* Mobile style */
 @media screen and (max-width: 600px){
@@ -332,5 +367,19 @@ h1.tegline{
     height: 12rem;
     /* object-fit: cover; */
     border-radius: 1rem;
+}
+
+/* Newsletter Style */
+.offer {
+    width: 50%;
+    text-align: center;
+    rotate: -30deg;
+    position: absolute;
+    bottom: 2rem;
+    right: 1rem;
+}
+
+.offer>h2{
+    font-size: 1.1rem;
 }
 }
