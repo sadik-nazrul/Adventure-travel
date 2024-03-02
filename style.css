@@ -231,6 +231,28 @@ h1.tegline {
     color: white;
 }
 
+/* Why Us style */
+.hotel-box {
+    background-color: #fbb5631a;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+.service-box {
+    background-color: #29CEF61a;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
+.price-box-container {
+    margin: 0.8rem 0 0;
+}
+
+.price-box {
+    background-color: #E944441a;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+
 
 /* Mobile style */
 @media screen and (max-width: 600px){
