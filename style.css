@@ -144,7 +144,7 @@ img{
 }
 
 .bg{
-    padding: 10rem 2rem;
+    padding: 8rem 2rem;
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 1rem;
@@ -285,6 +285,11 @@ i.ri-timer-fill, .ri-user-3-fill, .ri-map-pin-fill{
 
 .deal-details.flex.dir-col.gap > h4{
     color: var(--primary-color);
+}
+
+/* Perfact place Style */
+body > main > div:nth-child(6) > div > div.travel-video > iframe {
+    border-radius: .8rem;
 }
 
 /* Newsletter Style */
@@ -447,11 +452,6 @@ h1.tegline{
 
 .deal-info{
     flex-wrap: wrap;
-}
-
-/* Perfact place Style */
-body > main > div:nth-child(6) > div > div.travel-video > iframe {
-    border-radius: .8rem;
 }
 
 /* Newsletter Style */
