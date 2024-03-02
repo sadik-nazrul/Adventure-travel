@@ -189,6 +189,18 @@ h1.tegline {
     color: #969696;
 }
 
+/* Tours Style */
+.tour-container, .tour-intro{
+    gap: 2rem;
+}
+.tour-list{
+    padding-left: 1rem;
+}
+
+.tour-btn {
+    margin-top: -2rem;
+}
+
 
 
 
@@ -196,9 +208,9 @@ h1.tegline {
 @media screen and (max-width: 600px){
     /* Reusable classes */
 .container{
-    width: 320px;
+    width: 400px;
     padding: 1.8rem 1.2rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .flex{
