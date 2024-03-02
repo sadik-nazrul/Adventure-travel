@@ -449,6 +449,11 @@ h1.tegline{
     flex-wrap: wrap;
 }
 
+/* Perfact place Style */
+body > main > div:nth-child(6) > div > div.travel-video > iframe {
+    border-radius: .8rem;
+}
+
 /* Newsletter Style */
 .offer {
     width: 50%;
