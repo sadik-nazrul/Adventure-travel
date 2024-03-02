@@ -288,6 +288,21 @@ h1.tegline {
     color: #fff;
 }
 
+/* Footer Style */
+body > footer > div > div.intro.flex.dir-col.gap > img {
+    width: inherit;
+    margin: 0 auto;
+}
+.copyright{
+    width: 100%;
+    padding-top: 2rem;
+    border-top: 1px solid #13131810;
+}
+
+.copyright>p{
+    text-align: center;
+}
+
 
 /* Mobile style */
 @media screen and (max-width: 600px){
@@ -375,8 +390,8 @@ h1.tegline{
     text-align: center;
     rotate: -30deg;
     position: absolute;
-    bottom: 2rem;
-    right: 1rem;
+    bottom: 3rem;
+    right: .5rem;
 }
 
 .offer>h2{
