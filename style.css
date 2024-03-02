@@ -40,6 +40,10 @@ img{
     margin: 0 auto 2rem;
 }
 
+.shadow{
+    box-shadow: -2px 2px 15px 2px rgba(43,41,41,0.21);
+}
+
 .white{
     background-color: #fff;
 }
@@ -55,7 +59,7 @@ img{
 }
 
 .inner-title {
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     font-weight: 600;
 }
 
@@ -286,6 +290,18 @@ h1.tegline {
 
 .offer>p{
     color: #fff;
+}
+
+/* Blogs Style */
+.blog {
+    padding: 1rem;
+}
+.blog>img {
+    width: 100%;
+}
+
+.info {
+    padding: 2rem;
 }
 
 /* Footer Style */
