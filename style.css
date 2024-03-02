@@ -222,6 +222,10 @@ h1.tegline {
     padding-left: 1rem;
 }
 
+.tour-image> img{
+    width: 100%;
+}
+
 /* Desitination Style */
 
 .image-box {
