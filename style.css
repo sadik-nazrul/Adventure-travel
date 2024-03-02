@@ -1,11 +1,11 @@
 /* Font for the Website from Google */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* Boiler Template */
 *{
     margin: 0;
     padding: 0;
-    font-family: "Inter";
+    font-family: "Lato";
     border: none;
     box-sizing: border-box;
 }
@@ -338,6 +338,10 @@ i.ri-timer-fill, .ri-user-3-fill, .ri-map-pin-fill{
 
 .info {
     padding: 2rem;
+}
+
+.info> h2> a {
+    color: var(--secondary-color);
 }
 
 /* Footer Style */
