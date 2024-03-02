@@ -350,6 +350,15 @@ body > main > div:nth-child(6) > div > div.travel-video > iframe {
     color: var(--secondary-color);
 }
 
+/* Back to top */
+i.ri-arrow-up-circle-fill {
+    font-size: 6rem;
+    color: var(--primary-color);
+    position: fixed;
+    bottom: 0;
+    right: 1.5rem;
+}
+
 /* Footer Style */
 body > footer > div > div.intro.flex.dir-col.gap > img {
     width: inherit;
