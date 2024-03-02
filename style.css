@@ -8,6 +8,7 @@
     font-family: "Lato";
     border: none;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html, body{
