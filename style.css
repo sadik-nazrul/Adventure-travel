@@ -31,7 +31,11 @@ img{
     width: 1200px;
     margin: 0 auto;
     padding: 3.2rem 1.2rem;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.white{
+    background-color: #fff;
 }
 
 .title {
@@ -81,6 +85,14 @@ img{
     justify-content: space-between;
 }
 
+.item-center{
+    align-items: center;
+}
+
+.dir-col{
+    flex-direction: column;
+}
+
 .grid{
     display: grid;
 }
@@ -92,6 +104,93 @@ img{
 .col3{
     grid-template-columns: repeat(3, 1fr);
 }
+.col4{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.gap{
+    gap: .8rem;
+}
+
+.dnone{
+    display: none;
+}
+
+.dblock{
+    display: block;
+}
+
+/* Header style */
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+}
+
+header > .container{
+    padding: 1.5rem 1.2rem;
+}
+
+body > header > div > div.nav-items > ul {
+    gap: 2rem;
+}
+
+.nav-items > ul > li {
+    list-style: none;
+}
+
+.nav-items > ul > li > a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+/* Hero Section */
+.hero{
+    padding: 0 1.2rem;
+}
+.hero-container{
+    padding: 10rem 0;
+    background-image: url(./assets/hero-banner.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+}
+
+h1.tegline {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-des{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.search-form {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+}
+
+.field{
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 180px;
+    color: var(--text);
+}
+
+.select{
+    color: #969696;
+}
+
+
+
 
 /* Mobile style */
 @media screen and (max-width: 600px){
@@ -112,5 +211,40 @@ img{
 
 .col3{
     grid-template-columns: 1fr;
+}
+
+/* Header Style */
+.nav-hide{
+    display: none;
+}
+.hamburger{
+    display: block;
+}
+
+/* Hero Sstyle */
+.hero{
+    padding: .5rem;
+}
+.hero-container{
+    padding: 2rem 1.2rem;
+}
+
+h1.tegline{
+    font-size: 2rem;
+}
+
+.search-form{
+    width: 100%;
+}
+.form{
+    flex-direction: column;
+}
+
+.field{
+    width: 100%;
+}
+
+.smbt{
+    width: 100%;
 }
 }

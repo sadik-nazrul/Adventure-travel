@@ -4,15 +4,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Adventure Travel</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <title>Adventure Traveler</title>
 </head>
 <body>
 <!-- Header Start -->
 
     <header>
-        
+        <div class="container flex content-between item-center">
+            <div class="logo-container">
+                <img src="./assets/Advemntur Travel.svg" alt="Adventure Travele">
+            </div>
+            <div class="nav-items nav-hide">
+                <ul class="flex gap">
+                    <li>
+                        <a href="#hero">Home</a>
+                    </li>
+                    <li>
+                        <a href="#tours">Tours</a>
+                    </li>
+                    <li>
+                        <a href="#destination">Destination</a>
+                    </li>
+                    <li>
+                        <a href="#why">Why Us</a>
+                    </li>
+                    <li>
+                        <a href="#newsletter">Newsletter</a>
+                    </li>
+                    <li>
+                        <a href="#blogs">Blogs</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="hamburger dnone"><i class="ri-menu-4-line"></i></div>
     </header>
 
 <!-- Header Start -->    
+
+<!-- Main Start -->
+
+<main>
+
+    <!-- Hero section Start -->
+
+    <div id="hero" class="container hero">
+        <div class="hero-container flex dir-col content-center item-center gap">
+            <div class="hero-intro flex dir-col content-center item-center gap">
+                <h1 class="tegline">Explore Your Travel</h1>
+                <p class="hero-des">Find your tour packages from <br>"Adventure Travelers"</p>
+            </div>
+            <div class="search-form">
+                <form class="form flex content-center item-center gap">
+                    <input class="dblock btn field" type="text" placeholder="Where go">
+                    <select class="dblock btn field select">
+                        <option>When</option>
+                        <option>10.30am</option>
+                        <option>12.00am</option>
+                        <option>03.00am</option>
+                    </select>
+
+                    <select class="dblock btn field select">
+                        <option>Select Type</option>
+                        <option>Basic</option>
+                        <option>Standard</option>
+                        <option>Premium</option>
+                    </select>
+                    <input class="smbt btn" type="submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero section End -->
+
+</main>
+
+<!-- Main End -->
 </body>
 </html>
